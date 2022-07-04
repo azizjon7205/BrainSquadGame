@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page_background_gradient"
+    tools:context=".activities.SecondGameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:src="@drawable/squid_puzzle_gif"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/puzzleText"
+            android:text="@string/game_squid_puzzle"
+            android:textStyle="bold"
+            android:fontFamily="@font/caesar_dressing"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/game3x3"
+            app:cardCornerRadius="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/button_color">
+
+            <TextView
+                android:text="@string/puzzle_3x3"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:paddingVertical="10dp"
+                android:textSize="22sp"
+                android:fontFamily="@font/alfa_slab_one"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <ImageView
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="7dp"
+                android:contentDescription="@string/iconic_play"
+                android:src="@drawable/ic_baseline_play_circle_outline_24_white"
+                tools:ignore="RtlHardcoded" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/game4x4"
+            app:cardCornerRadius="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/button_color">
+
+            <TextView
+                android:text="@string/puzzle_4x4"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:paddingVertical="10dp"
+                android:textSize="22sp"
+                android:fontFamily="@font/alfa_slab_one"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <ImageView
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="7dp"
+                android:contentDescription="@string/iconic_play"
+                android:src="@drawable/ic_baseline_play_circle_outline_24_white"
+                tools:ignore="RtlHardcoded" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/game5x5"
+            app:cardCornerRadius="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/button_color">
+
+            <TextView
+                android:text="@string/puzzle_5x5"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:paddingVertical="10dp"
+                android:textSize="22sp"
+                android:fontFamily="@font/alfa_slab_one"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <ImageView
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="7dp"
+                android:contentDescription="@string/iconic_play"
+                android:src="@drawable/ic_baseline_play_circle_outline_24_white"
+                tools:ignore="RtlHardcoded" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/records_squid_puzzle"
+            app:cardCornerRadius="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/button_color">
+
+            <TextView
+                android:text="@string/puzzle_high_scores"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:paddingVertical="10dp"
+                android:textSize="22sp"
+                android:fontFamily="@font/alfa_slab_one"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

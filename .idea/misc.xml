@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Frankie/Downloads/Telegram Desktop/BrainSquidGame1/app/src/main/res/drawable/shape_black_border_inwhite.xml" value="0.117" />
+        <entry key="..\:/Users/Frankie/Downloads/Telegram Desktop/BrainSquidGame1/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Frankie/Downloads/Telegram Desktop/BrainSquidGame1/app/src/main/res/layout/activity_second_game.xml" value="0.2" />
+        <entry key="..\:/Users/Frankie/Downloads/Telegram Desktop/BrainSquidGame1/app/src/main/res/layout/activity_second_game3x3.xml" value="0.25" />
+        <entry key="..\:/Users/Frankie/Downloads/Telegram Desktop/BrainSquidGame1/app/src/main/res/layout/activity_second_game4x4.xml" value="0.2" />
+        <entry key="..\:/Users/Frankie/Downloads/Telegram Desktop/BrainSquidGame1/app/src/main/res/layout/activity_second_game5x5.xml" value="0.2" />
+        <entry key="..\:/Users/Frankie/Downloads/Telegram Desktop/BrainSquidGame1/app/src/main/res/layout/activity_splash.xml" value="0.18" />
+        <entry key="..\:/Users/Frankie/Downloads/Telegram Desktop/BrainSquidGame1/app/src/main/res/layout/fragment_first_game_assignment.xml" value="0.2" />
+        <entry key="..\:/Users/Frankie/Downloads/Telegram Desktop/BrainSquidGame1/app/src/main/res/layout/fragment_start_first_game.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Brain Squid Game</string>
+    <string name="game_iconic_picture">Game iconic picture</string>
+    <string name="game_name">Brain Squid Game</string>
+    <string name="game_2_name">Squid Puzzle</string>
+    <string name="game_1_name">Remember!</string>
+    <string name="game_3_name">Play Game 3</string>
+    <string name="exit">Exit</string>
+    <string name="about_us">About Us</string>
+    <string name="iconic_play">Play picture iconic</string>
+    <string name="level_complete">Complete</string>
+    <string name="string_congratulations">Congratulations</string>
+    <string name="string_failed">Failed</string>
+    <string name="string_level_failed">Level failed</string>
+    <string name="game_squid_puzzle">Squid Puzzle</string>
+    <string name="puzzle_3x3">3x3</string>
+    <string name="puzzle_4x4">4x4</string>
+    <string name="puzzle_5x5">5x5</string>
+    <string name="puzzle_high_scores">High scores</string>
+    <string name="string_remember_game">Remember Game</string>
+    <string name="level_star_0_45">0 / 45</string>
+</resources>
